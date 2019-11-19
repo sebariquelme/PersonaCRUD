@@ -1,4 +1,5 @@
 package com.example.controller;
+import com.example.data.PersonaData;
 import com.example.models.*;
 
 import java.util.List;
@@ -17,19 +18,19 @@ public class PersonaController {
 	  public List<Persona> list(){
 	    return PersonaData.list();
 	  }
-	  @RequestMapping(value = "persona", method = RequestMethod.POST)
+	  @RequestMapping(value = "persona/create", method = RequestMethod.POST)
 	  public Persona create(@RequestBody Persona persona){
 	    return PersonaData.create(persona);
 	  }
-	  @RequestMapping(value = "persona/{id}", method = RequestMethod.GET)
+	  @RequestMapping(value = "persona/get/{id}", method = RequestMethod.GET)
 	  public Persona get(@PathVariable Integer id){
 	    return PersonaData.get(id);
 	  }
-	  @RequestMapping(value = "persona/{id}", method = RequestMethod.PUT)
+	  @RequestMapping(value = "persona/update/{id}", method = RequestMethod.PUT)
 	  public Persona update(@PathVariable Integer id, @RequestBody Persona persona){
 	    return PersonaData.update(id, persona);
 	  }
-	  @RequestMapping(value = "persona/{id}", method = RequestMethod.DELETE)
+	  @RequestMapping(value = "persona/delete/{id}", method = RequestMethod.DELETE)
 	  public Persona delete(@PathVariable Integer id){
 	    return PersonaData.delete(id);
 	  }
