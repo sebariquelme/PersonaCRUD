@@ -1,5 +1,6 @@
 package com.example.models;
 
+//Repository in https://github.com/sebariquelme/PersonaCRUD
 public class Persona {
 
 	private int id;

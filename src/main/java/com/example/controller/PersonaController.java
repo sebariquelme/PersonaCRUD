@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+//Repository in https://github.com/sebariquelme/PersonaCRUD
+
 @RestController
 @RequestMapping("/")
 public class PersonaController {
