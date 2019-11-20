@@ -9,8 +9,9 @@ public class Persona {
 	private String address;
 	private int phoneNumber;
 	private String hairColour;
-	
-	public Persona() {}
+
+	public Persona() {
+	}
 
 	public Persona(int id, String name, String lastname, String address, int phoneNumber, String hairColour) {
 		super();
@@ -69,7 +70,5 @@ public class Persona {
 	public void setHairColour(String hairColour) {
 		this.hairColour = hairColour;
 	}
-	
-	
-	
+
 }
