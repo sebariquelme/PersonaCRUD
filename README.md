@@ -35,7 +35,7 @@ and give a JSON object of Persona, like this:
 ```
 
 Example images in POSTMAN:
-Create
+
 ![Create](https://i.imgur.com/sSWIjBf.png)
 
  
@@ -51,10 +51,9 @@ GET to http://localhost:8080/persona/get/{id}
 
 Example images in POSTMAN:
 
-Get All
+
 ![Get All](https://i.imgur.com/RaxivQV.png)
 
-Get By ID
 ![Get by ID](https://i.imgur.com/T5I9G1w.png)
 
  ### For Update
@@ -77,8 +76,7 @@ and give a JSON object of Persona, like this:
 ```
 Example images in POSTMAN:
 
-Update
-![Update](h https://i.imgur.com/fDQNZ67.png)
+![Update](https://i.imgur.com/fDQNZ67.png)
 
  
  ### For Delete
@@ -89,6 +87,5 @@ DELETE to localhost:8080/persona/delete/{id}
 
 Example images in POSTMAN:
 
-Delete
 ![Delete](https://i.imgur.com/iXCGEXM.png)
 
