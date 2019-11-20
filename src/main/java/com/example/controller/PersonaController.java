@@ -24,7 +24,7 @@ public class PersonaController {
 	  }
 	  @RequestMapping(value = "persona/get/{id}", method = RequestMethod.GET)
 	  public Persona get(@PathVariable Integer id){
-	    return PersonaData.get(id);
+		  return PersonaData.get(id);
 	  }
 	  @RequestMapping(value = "persona/update/{id}", method = RequestMethod.PUT)
 	  public Persona update(@PathVariable Integer id, @RequestBody Persona persona){
